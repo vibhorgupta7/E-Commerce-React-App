@@ -35,7 +35,7 @@ class App extends React.Component{
   render(){
     return (
       <div>
-        <Header />
+        <Header currentUser={this.state.currentUser}/>
         <Switch>
           <Route exact path='/' component={HomePage}/>            {/* whenever a route is being made, the component thta is called is sent 3 parameters: Location, History, Match */}
           <Route path='/shop' component={ShopPage} />
