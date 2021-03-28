@@ -3,7 +3,7 @@ import 'firebase/firestore';
 import  'firebase/auth';
 
 
-const config = {
+const config = {                                          // link from our online firebase project
     apiKey: "AIzaSyC6vPufRI2ivm3-S8bOr1KIdfNJJMPXbdU",
     authDomain: "e-commerce-app-a514a.firebaseapp.com",
     projectId: "e-commerce-app-a514a",
